@@ -1,7 +1,7 @@
 <h1 align="center">Probabilistic assessment of algal nutrient limitation across lakes, leveraging trends with temperature and depth</h1>
 
 <p align="center">
-  <strong>Brian  W. Baird<sup>1,§</sup>, Smitom Borah<sup>1</sup>, James J. Elser<sup>2</sup></strong> , Daniel R. Obenour<sup>1,3</sup></strong>
+  <strong>Brian  W. Baird<sup>1,§</sup>, Smitom S. Borah<sup>1</sup>, James J. Elser<sup>2</sup></strong> , Daniel R. Obenour<sup>1,3</sup></strong>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 Lake eutrophication remains a significant challenge for water-quality management across the world. Many management strategies focus on reducing nutrient inputs, but other environmental factors can substantially influence the yield of algal biomass for a given level of nutrients. While various large-scale studies have explored how different lake characteristics impact eutrophication, there remains a need to integrate these factors into a comprehensive model capable of assessing nitrogen versus phosphorus limitation. In this study, we refine chlorophyll-nutrient relationships across the conterminous United States by considering auxiliary variables (e.g., temperature, lake depth, nutrient enrichment) within a Bayesian hierarchical framework. We leverage over 4000 sampling events of 2755 different lakes from the National Lakes Assessments (2007-2022) to inform model development. We first consider auxiliary variables independently, exploring how they influence the intercept, slope, and critical nutrient ratio (nitrogen:phosphorus) in a regression to predict chlorophyll based on the limiting nutrient. Next, we integrate significant auxiliary variables into a comprehensive model for chlorophyll prediction. Results indicate that the critical nutrient ratio increases in relation to increased lake depth, and the slope of the nutrient-chlorophyll relationship increases with increasing temperature. We apply the model to map mean summer conditions across United States lakes and find that 23% and 16% of lakes are strongly limited by phosphorus and nitrogen, respectively (i.e., at > 90% probability). These proportions, however, vary substantially across different subregions. Overall, the probabilistic modeling approach and results can serve as an effective tool to inform water resources management, especially at large spatial scales.
 
-In this repository, we provide the data and models developed as a part of our study. The data needed to run the codes are stored in *data* folder and the model codes are stored in *codes* folder. The details of the files in these folders are provided in the corresponding ReadMe files.
+In this repository, we provide the data and models developed as a part of our study. The data needed to run the codes are stored in *data* folder, the model codes are stored in *codes* folder, and the nutrient limitation data are stored in the *outputs* folder. The details of the files in these folders are provided in the corresponding ReadMe files.
 
 ## Getting Started
 
@@ -125,8 +125,8 @@ Here's a step-by-step guide to how to the codes given here in RStudio:
 
 4. **To run code chunks interactively:**
    - Click the green play button (▶) at the top right of each code chunk.
-   - Or press Ctrl+Shift+Enter (Windows/Linux) or Cmd+Shift+Enter (Mac) to run the entire notebook.
-   - You can also run one chunk at a time with Ctrl+Alt+C (Windows) or Cmd+Option+C (Mac).
+   - Or press Ctrl+Shift+Enter (Windows/Linux) or Cmd+Shift+Enter (Mac) to run the current code chunk.
+   - You can also run entire codes with Ctrl+Alt+R (Windows) or Cmd+Option+R (Mac).
 
 ### Additional Resources
 For further details, refer to these resources:
