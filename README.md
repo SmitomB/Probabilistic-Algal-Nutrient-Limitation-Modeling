@@ -125,8 +125,8 @@ Here's a step-by-step guide to how to the codes given here in RStudio:
 
 4. **To run code chunks interactively:**
    - Click the green play button (▶) at the top right of each code chunk.
-   - Or press Ctrl+Shift+Enter (Windows/Linux) or Cmd+Shift+Enter (Mac) to run the entire notebook.
-   - You can also run one chunk at a time with Ctrl+Alt+C (Windows) or Cmd+Option+C (Mac).
+   - Or press Ctrl+Shift+Enter (Windows/Linux) or Cmd+Option+Enter (Mac) to run the current code chunk.
+   - You can also run entire codes with Ctrl+Alt+R (Windows) or Cmd+Option+R (Mac).
 
 ### Additional Resources
 For further details, refer to these resources:
