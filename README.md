@@ -1,7 +1,7 @@
 <h1 align="center">Probabilistic assessment of algal nutrient limitation across lakes, leveraging trends with temperature and depth</h1>
 
 <p align="center">
-  <strong>Brian  W. Baird<sup>1,§</sup>, Smitom Borah<sup>1</sup>, James J. Elser<sup>2</sup></strong> , Daniel R. Obenour<sup>1,3</sup></strong>
+  <strong>Brian  W. Baird<sup>1,§</sup>, Smitom S. Borah<sup>1</sup>, James J. Elser<sup>2</sup></strong> , Daniel R. Obenour<sup>1,3</sup></strong>
 </p>
 
 <p align="center">
