@@ -117,15 +117,16 @@ Here's a step-by-step guide to how to the codes given here in RStudio:
    - In the `Files` pane of RStudio, you can see all the files in the cloned repository.
 
 2. **Open Scripts:**
-   - Double-click on any R script (`.R` file) to open it in the `Source` pane.
+   - Double-click on any R notebook (`.RMD` file) to open it in the `Source` pane.
 
 3. **Install Required Packages:**
    - If the project depends on specific R packages, install them using `install.packages("packageName")`.
    - You can find a list of required packages within the script itself (usually at the top in the form of `my_packages <- c(packageName,...)`).
 
-4. **Run the Code:**
-   - You can run the entire script by clicking the `Source` button or by selecting `Code` > `Run Region` > `Run All`.
-   - Alternatively, you can run line by line by selecting the line and pressing `Ctrl+Enter` (Windows/Linux) or `Cmd+Enter` (Mac).
+4. **To run code chunks interactively:**
+   - Click the green play button (▶) at the top right of each code chunk.
+   - Or press Ctrl+Shift+Enter (Windows/Linux) or Cmd+Shift+Enter (Mac) to run the entire notebook.
+   - You can also run one chunk at a time with Ctrl+Alt+C (Windows) or Cmd+Option+C (Mac).
 
 ### Additional Resources
 For further details, refer to these resources:
