@@ -6,8 +6,9 @@
 
 <p align="center">
   <sup>1</sup>Department of Civil, Construction, and Environmental Engineering, North Carolina State University, Raleigh, NC, 27606, USA<br>
-  <sup>2</sup>Biological and Agricultural Engineering, North Carolina State University, Raleigh, NC, 27606, USA<br>
-  <sup>3</sup>Department of Crop and Soil Sciences, North Carolina State University, Raleigh, NC, 27606, USA
+  <sup>2</sup>2Division of Biological Sciences and Flathead Lake Biological Station, University of Montana, Polson, Montana 59860, USA <br>
+  <sup>3</sup>3Center for Geospatial Analytics, North Carolina State University, Raleigh, North Carolina 27695, USA <br>
+  <sup>§</sup>Kimley-Horn and Associates, Inc., Dallas, Texas, 75240, USA
 </p>
 
 
@@ -21,9 +22,9 @@
 
 **Abstract**
 
-Internal phosphorus loading (IPL) can be a significant phosphorus (P) source in freshwater systems, often causing water-quality improvement delays. Despite its importance, IPL estimates are missing for many freshwater systems due to several large-scale measuring and modeling challenges. In this study, we develop a modeling framework to estimate summer anoxic sediment release rates (SRRs) for P in 5899 large lakes and reservoirs (surface area > 1.0 km²; mixing depth < maximum depth) across the contiguous US (CONUS).  Our framework combines random forest models for bottom-water temperature (BT) and surface-water total P (TP) with a mixed-effects regression model for SRR, and it includes uncertainty propagation across these models. Our results indicate that mean summer SRR ranges from 1-37 mg/m²/day across CONUS lakes, with 31 % of waterbodies having SRR > 10 mg/m²/day. Areas of high SRR are generally associated with high predicted surface-water TP, which is particularly common in agricultural areas. Uncertainties in SRR predictions are largely attributable to the random forest-based inputs and predictive error in the SRR regression. In relatively dry summers, IPL is likely to be higher than external loading in 26 % of watersheds. Overall, our results reveal where IPL can be a critical factor in watershed nutrient management.
+Lake eutrophication remains a significant challenge for water-quality management across the world. Many management strategies focus on reducing nutrient inputs, but other environmental factors can substantially influence the yield of algal biomass for a given level of nutrients. While various large-scale studies have explored how different lake characteristics impact eutrophication, there remains a need to integrate these factors into a comprehensive model capable of assessing nitrogen versus phosphorus limitation. In this study, we refine chlorophyll-nutrient relationships across the conterminous United States by considering auxiliary variables (e.g., temperature, lake depth, nutrient enrichment) within a Bayesian hierarchical framework. We leverage over 4000 sampling events of 2755 different lakes from the National Lakes Assessments (2007-2022) to inform model development. We first consider auxiliary variables independently, exploring how they influence the intercept, slope, and critical nutrient ratio (nitrogen:phosphorus) in a regression to predict chlorophyll based on the limiting nutrient. Next, we integrate significant auxiliary variables into a comprehensive model for chlorophyll prediction. Results indicate that the critical nutrient ratio increases in relation to increased lake depth, and the slope of the nutrient-chlorophyll relationship increases with increasing temperature. We apply the model to map mean summer conditions across United States lakes and find that 23% and 16% of lakes are strongly limited by phosphorus and nitrogen, respectively (i.e., at > 90% probability). These proportions, however, vary substantially across different subregions. Overall, the probabilistic modeling approach and results can serve as an effective tool to inform water resources management, especially at large spatial scales.
 
-In this repository, we provide the data and models developed as a part of our study to predict IPL in large lakes and reservoirs across CONUS. Additionally, codes for nationwide IPL, BT and TP predictions along with uncertainty quantification are provided. The data needed to run the codes are stored in *Datafiles* folder and the codes are stored in *Codes* folder.
+In this repository, we provide the data and models developed as a part of our study. The data needed to run the codes are stored in *data* folder and the model codes are stored in *codes* folder. The details of the files in these folders are provided in the corresponding ReadMe files.
 
 ## Getting Started
 
