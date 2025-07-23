@@ -124,7 +124,7 @@ Here's a step-by-step guide to how to the codes given here in RStudio:
    - You can find a list of required packages within the script itself (usually at the top in the form of `my_packages <- c(packageName,...)`).
 
 4. **To run code chunks interactively:**
-   - Click the green play button (▶) at the top right of each code chunk.
+   - Click the green play button (▶) <span style="color:green; background-color:transparent;">▶</span> at the top right of each code chunk.
    - Or press Ctrl+Shift+Enter (Windows/Linux) or Cmd+Shift+Enter (Mac) to run the entire notebook.
    - You can also run one chunk at a time with Ctrl+Alt+C (Windows) or Cmd+Option+C (Mac).
 
