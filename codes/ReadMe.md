@@ -7,5 +7,6 @@ This repository contains following files:
 | `MAV_model.Rmd`      | R Notebook containing code for **Multiple Auxiliary Variables (MAV) model**.                  |
 | `N_P_mapping.Rmd`    | R Notebook containing code for mapping probability of nutrient (nitrogen and phosphorus) limitation across the contiguous US.  |
 | `cross_validation.Rmd` | R Notebook containing code for cross validation of the MAV model. |
+| `MAV_model_BVS.Rmd`| R Notebook containing code backward variable selection process for the MAV model. |
 | `ReadMe.md`          | This README file, providing repository overview and usage instructions.     |
 
